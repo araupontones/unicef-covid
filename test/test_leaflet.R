@@ -41,6 +41,7 @@ leaflet(test) %>%
     fillColor = ~factpal(target),
     fillOpacity = 1,
     weight = 1,
-    label = labels)
+    label = labels) %>%
+  setView(lat = 44.82963, lng = 37.69849, zoom = 3)
 
-
+?setView
